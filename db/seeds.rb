@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 foods = Food.create([{name: "Sweet Potato", calories: 20, ounces: 1, carbs: 0.1, fats: 0.1, protein: 0.4, food_url: "https://www.bbcgoodfood.com/sites/default/files/guide/guide-image/2017/10/the-health-benefits-of-sweet-potatoes-main-image-700-350.jpg"}, {name: "Chicken Breast, without skin, raw", calories: 31, ounces: 1, carbs: 0.0, fats: 0.4, protein: 6.5,
-  food_url: "https://images.eatthismuch.com/site_media/img/451_erin_m_d7cfcfcd-642a-4d6b-b6e8-0adf3eabbff7.png"}])
+  food_url: "https://images.eatthismuch.com/site_media/img/451_erin_m_d7cfcfcd-642a-4d6b-b6e8-0adf3eabbff7.png"}, {name: "Sweet Potato", calories: 20, ounces: 1, carbs: 0.1, fats: 0.1, protein: 0.4, food_url: "https://www.bbcgoodfood.com/sites/default/files/guide/guide-image/2017/10/the-health-benefits-of-sweet-potatoes-main-image-700-350.jpg"}, {name: "Brown Rice", calories: 25, ounces: 1, carbs: 0.2, fats: 0.2, protein: 0.3, food_url: "https://img.sndimg.com/food/image/upload/w_896,h_504,c_fill,fl_progressive,q_80/v1/img/recipes/88/56/4/pic7HhMS0.jpg"}])
 
 users = User.create([{name: "Alvaro", user_name: "alvarodltp", age: 29, weight: 195.0, height: 5.11, gender: "male", body_fat: 13.0, activity_level: "1.37", goal: "lose",
   bmr: 1800, calories: 2800, protein: 190.4, carbs: 200.0, fats: 94.0, url: "https://static.thumbtackstatic.com/pictures/11025/6tp34bha0k1nf4o3jhrbh4iojt_400.jpg"},
